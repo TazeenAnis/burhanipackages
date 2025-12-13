@@ -3,7 +3,7 @@
     --primary-color: #B0232B; /* Deep Berry/Maroon from logo text [cite: 1] */
     --secondary-color: #A9A9A9;/* Gray from logo graphic [cite: 1] */
     --light-bg: #EAE3DC; /* Light beige from hero image [cite: 1] */
-    --dark-text: #1E1E1E;
+    --dark-text: #000000;
     --font-family: 'Poppins', sans-serif;
 }
 
