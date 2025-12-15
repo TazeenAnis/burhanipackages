@@ -1,6 +1,6 @@
 /* Base Styles */
 :root {
-    --primary-color: #B0232B; /* Deep Berry/Maroon from logo text [cite: 1] */
+    --primary-color: #702740; /* Deep Berry/Maroon from logo text [cite: 1] */
     --secondary-color: #A9A9A9;/* Gray from logo graphic [cite: 1] */
     --light-bg: #EAE3DC; /* Light beige from hero image [cite: 1] */
     --dark-text: #000000;
@@ -20,7 +20,7 @@ body {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 section {
@@ -165,17 +165,18 @@ nav ul li a:hover {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px 30px;
+    /* justify-content: center; */
+    gap: 10px 30px;
+    text-align: justify;
 }
 
 #clients li {
-    background-color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    /* background-color: #fff; */
+    padding: 10px 10px;
+    /* border-radius: 5px; */
+    /* box-shadow: 0 1px 3px rgba(0,0,0,0.08); */
     font-weight: 600;
-    color: var(--primary-color);
+    color: black;
 }
 
 /* Contact Section */
@@ -191,14 +192,14 @@ nav ul li a:hover {
 
 .contact-info {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .contact-item {
-    flex-basis: 300px;
-    margin: 15px;
+    flex-basis: 150px;
+    margin: 20px;
     text-align: left;
 }
 
@@ -212,7 +213,7 @@ footer {
     background-color: var(--dark-text);
     color: var(--secondary-color);
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
