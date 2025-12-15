@@ -109,6 +109,11 @@ nav ul li a:hover {
     font-weight: 300;
 }
 
+#htext {
+    display: inline;
+    color: black;
+  }
+
 .cta-button {
     display: inline-block;
     background-color: var(--primary-color);
