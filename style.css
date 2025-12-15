@@ -233,8 +233,13 @@ footer {
     }
     
     #hero h1 {
-        font-size: 2.5em;
+        font-size: 2em;
     }
+
+    #htext {
+        display: block;
+    }
+
     #hero p {
         font-size: 1.2em;
     }
